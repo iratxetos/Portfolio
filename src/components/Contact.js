@@ -8,6 +8,7 @@ function Contact(props) {
     return (
         <>
             <h3 className='page__contact' data-aos="zoom-in" data-aos-delay="1000">Contact me</h3>
+            <h6 className='page__contact--subtitle' data-aos="zoom-in" data-aos-delay="1000">You can do it in English 💂‍♂️ - Italian 🤏 - Spanish 💃 - Basque 🏋️‍♀️</h6>
             <form className="page__form" onSubmit={handleSubmit} data-aos="fade-right" data-aos-delay="1100">
                 <fieldset className="page__form--contactInfo" data-aos="fade-left" data-aos-delay="1200">
                     <label className="page__form--label" htmlFor="fullName">

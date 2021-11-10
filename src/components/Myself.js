@@ -14,7 +14,7 @@ function Myself(props) {
                 data-aos-duration="1000"
             />
             <h1 className="page__title" data-aos="fade-down-right" data-aos-delay="500">Iratxe Martin</h1>
-            <h4 className="page__subtitle" data-aos="fade-down-right" data-aos-delay="8000">Project Management · Frontend Development · Marketing, Madrid</h4>
+            <h4 className="page__subtitle" data-aos="fade-down-right" data-aos-delay="8000">Project Management · Front-end Development · Marketing, Madrid</h4>
         </>
     )
 }

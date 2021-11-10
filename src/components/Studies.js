@@ -11,16 +11,16 @@ function Studies(props) {
                     </h3>
                     <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                         <div className="accordion-body">
-                            Bootcamp of front-end development and some back-end notions.<br />
-                            <span className="bold">Modules and subjects studied:</span> <br />
-                            - Layout - HTML5, CSS3, Flexbox, CSS Grid, SASS, Bootstrap <br />
+                            Bootcamp of front-end development and some back-end content.<br />
+                            <span className="bold">Modules and Subjects:</span> <br />
+                            - Layout - HTML5, CSS3, Flexbox, CSS Grid, Sass, Bootstrap <br />
                             - JavaScript and APIs <br />
-                            - React <br />
+                            - React.js <br />
                             - Node JS and SQLite <br />
-                            - Professional development <br />
+                            - Professional Development <br />
 
                             <span className="bold">Tools:</span><br />
-                            Git version control system , Github, Gulp, Visual Studio Code, Zeplin and Slack.<br />
+                            Git version control system, Github, Gulp, Visual Studio Code, Zeplin and Slack.<br />
 
                             <span className="bold">Methodology:</span><br />
                             Scrum and Agile<br />
@@ -37,9 +37,9 @@ function Studies(props) {
                     <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                         <div className="accordion-body">
                             - Social Media Marketing <br />
-                            - Content creation<br />
+                            - Content Creation<br />
                             - Facebook Ads<br />
-                            - Keywords research<br />
+                            - Keyword Search<br />
                             <span className="bold">Tools:</span><br />
                             Wordpress - Altervista<br />
                             <a href="https://www.facebook.com/servicelazio2000/" className="page__studies--link" target="_blank" rel="noreferrer"> Visit Alfor</a>
@@ -55,7 +55,7 @@ function Studies(props) {
                     <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                         <div className="accordion-body">
                             - Marketing Plan<br />
-                            - Buyer persona<br />
+                            - Buyer Persona<br />
                             - Budget - Media Investment <br />
                             <a href="https://www.cef.es/es" className="page__studies--link" target="_blank" rel="noreferrer"> Visit CEF</a>
                         </div>

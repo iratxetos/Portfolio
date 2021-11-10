@@ -3,6 +3,10 @@
         font-size: $main-title-font-size;
         font-weight: $title-font-weight;
         margin: $main-margin;
+
+        &--subtitle{
+            font-weight: $subtitle-font-weight;
+        }
      }
     &__form{
         width: 100%;

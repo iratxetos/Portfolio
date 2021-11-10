@@ -15,9 +15,9 @@ function Welcome(props) {
                     1000,
                     'Design 🗿',
                     1000,
-                    'Wine 🍷',
+                    'Food & Wine 🍷',
                     1000,
-                    'cycling 🚴‍♀️',
+                    'Cycling 🚴‍♀️',
                     1000,
                 ]}
             />

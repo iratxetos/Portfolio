@@ -2,7 +2,6 @@ import '../styles/App.scss';
 //import React, { useState } from "react";
 // import { Route, Switch, useRouteMatch } from 'react-router-dom';
 import Header from "./Header";
-//import Switch from "./Switch";
 import Myself from './Myself';
 import Tags from "./Tags";
 import Welcome from './Welcome';
@@ -17,19 +16,6 @@ import data from '../data-projects/projects.json';
 
 
 function App() {
-  // const [theme, setTheme] = useState('light');
-  // const [activate, setActiveMode] = useState('');
-
-  // //SWITCH
-  // const handleSwitch = (ev) => {
-  //   if (activate === '') {
-  //     //setTheme('dark');
-  //     setActiveMode('active');
-  //   } else {
-  //     //setTheme('light');
-  //     setActiveMode('');
-  //   };
-  // }
 
   const renderProjectList = () => {
     return data
@@ -51,8 +37,6 @@ function App() {
     <div className="page" data-aos="fade-up">
       <Header />
       <div className="page__wrapper" data-aos="fade-up" data-aos-delay="500">
-        {/* <Switch activate={activate} handleSwitch={handleSwitch} /> */}
-
 
         <Myself />
 
