@@ -1,0 +1,52 @@
+.page{
+
+    &__projects{
+      font-size: $main-title-font-size;
+      font-weight: $title-font-weight;
+      margin: $main-margin;
+  
+      }
+
+    &__projectList{
+        display: flex;
+        flex-direction: column;
+
+        @include tablet {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-gap: 10%; 
+           }
+           
+        &--item{
+            align-items: center;
+            list-style: none;
+            padding-bottom: 15px;
+        }
+
+        &--title{
+            font-size: $title-font-size;
+            font-weight:$title-font-weight ;
+        }
+        &--text{
+             font-size: $text-font-size;
+             font-weight:$subtitle-font-weight ;
+             text-align: justify;
+             margin-bottom:5px ;
+         }
+
+         &--icons{
+            
+            a{
+                padding: 0 10px 0 0;
+                text-decoration: none;
+                color: #1f1f1f;
+                cursor: pointer;
+        
+                &:hover{
+                  color:#cdb4db;
+                }
+              }
+         }
+     }
+}

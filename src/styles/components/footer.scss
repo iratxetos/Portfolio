@@ -1,0 +1,16 @@
+.page{
+    &__footer{
+display: flex;
+justify-content: flex-end;
+padding-right: 20px;
+        &--copy{
+            font-size: $small-font-size;
+            font-weight: $label-font-size;
+        }
+
+    &--authorName{
+        font-size: $small-font-size;
+    font-weight: $label-font-size;
+    }
+    }
+}

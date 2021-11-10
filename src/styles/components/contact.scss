@@ -1,0 +1,94 @@
+.page{
+    &__contact{
+        font-size: $main-title-font-size;
+        font-weight: $title-font-weight;
+        margin: $main-margin;
+     }
+    &__form{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        border: 1px solid #caf0f8;
+        background-color: #8ecae6;
+        border-radius: 30px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 2em;
+        overflow: none !important;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+
+           
+        &--contactInfo{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+            @include tablet {
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between; 
+               }
+        }
+    &--label{
+        font-size: $text-font-size;
+        font-weight: $subtitle-font-weight;
+
+    }
+
+    &--input{
+        background-color: transparent ;
+        border-bottom: 1px solid #001;
+        border-top: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        margin-bottom: 40px;
+        outline: none;
+        transition: 0.4s border;
+        &:focus{
+            border: 1px dashed #001;
+        }
+    }
+
+    &--textArea{
+        height: 150px;
+        margin-bottom: 15px;
+        background-color: transparent ;
+        border-bottom: 1px solid #001;
+        border-top: 1px solid transparent;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        margin-bottom: 40px;
+        outline: none;
+        transition: 0.4s border;
+&:focus{
+    border: 1px dashed #001;
+}
+&::placeholder{
+    font-size: $text-font-size;
+    font-weight: $subtitle-font-weight;
+    opacity: 1;
+
+}
+    }
+
+    &--submit{
+        border: 1px solid #caf0f8 ;
+        width: 30%;
+        border-radius: 30px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        background-color: #caf0f8;
+        transition: color ease 1s, border-color ease 1s;
+    
+        
+&:hover{
+    color: #caf0f8;
+    background-color: #1f1f1f;
+    border-color: #1f1f1f;
+}
+
+
+    }
+       
+    
+
+}
+}

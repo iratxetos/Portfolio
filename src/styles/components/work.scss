@@ -1,0 +1,43 @@
+.page{
+
+&__work{
+    font-size: $main-title-font-size;
+    font-weight: $title-font-weight;
+    margin: $main-margin;
+
+&--article{
+    display: flex;
+    flex-direction: row; 
+    margin: $subtitle-margin;
+    }
+
+&--img{
+    width: 35px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+&--description{
+    display: flex;
+    flex-direction: column; 
+}
+
+&--title{
+    font-size: $title-font-size;
+    font-weight: $title-font-weight;
+    margin-bottom: 2px;
+ }
+
+&--subtitle{
+     font-size: $subtitle-font-size;
+     font-weight: $subtitle-font-weight;
+     margin-top: 0;
+ }
+
+&--text{
+    font-size:$text-font-size;
+    font-weight: $subtitle-font-weight;
+ }
+}
+
+}

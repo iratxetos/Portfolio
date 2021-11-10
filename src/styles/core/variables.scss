@@ -1,0 +1,35 @@
+$main-title-font-weight: 600;
+$main-subtitle-font-weight: 200;
+$title-font-weight:500;
+$subtitle-font-weight: 300;
+$label-font-weight: 200;
+
+$main-title-font-size: 1.5rem;
+$title-font-size: 1rem;
+$subtitle-font-size: 0.7rem;
+$text-font-size:0.8rem;
+$small-font-size: 0.6rem;
+$label-font-size: 0.6rem;
+
+$main-margin:  10px 0 5px;
+$subtitle-margin: 1px 0;
+$margin-section: 20px 0;
+$margin-items: 0 10px 0 0;
+
+.light{
+    --page-background-color: #f0efeb;
+    --page-main-color: #ddd;
+    --page-text-color: #121212;
+    --page-break-color: #8ecae6;
+    --page-btn-color: #ffafcc;
+    --page-remark-color: #cdb4db;
+}
+
+.dark{
+    --page-background-color: #121212;
+    --page-main-color: #1f1f1f;
+    --page-text-color: #e5e4e2;
+    --page-break-color: #8ecae6;
+    --page-btn-color: #cdb4db;
+    --page-remark-color: #ffafcc;
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Rick and Morty",
+        "desc": "This project consists of the development of an api to search and filter the characters of the Rick and Morty series using React.js",
+        "git": "https://github.com/iratxetos/Rick-Morty",
+        "url": "https://iratxetos.github.io/Rick-Morty/#/"
+    },
+    {
+        "title": "Netflis",
+        "desc": "Netflix is a series searcher, it allows you to have your own list of favorite series and it is made with Javascript.",
+        "git": "https://github.com/iratxetos/Netflis",
+        "url": "https://iratxetos.github.io/Netflis/"
+    },
+    {
+        "title": "Creame un club",
+        "desc": "This application is used to create clubs and add them to the list. It also allows you to delete and keep then saved in Local Storage. It's made with Javascript.",
+        "git": "https://github.com/iratxetos/Creame-un-club",
+        "url": "https://iratxetos.github.io/Creame-un-club/"
+    },
+    {
+        "title": "Awesome profile cards",
+        "desc": "I worked on this project in group, we inherited a code and from Javascript we passed it to React.js. We also made the connection to a Heroku server with Node.js.",
+        "git": "https://github.com/iratxetos/Profile-cards",
+        "url": "https://www.montecolino.it/content/uploads/2020/03/kepp-calm.jpg"
+    },
+    {
+        "title": "Suerte infinita",
+        "desc": "This is just created to provide good luck to Adalabers in their first exam",
+        "git": "https://github.com/iratxetos/Suerte-infinita",
+        "url": "https://iratxetos.github.io/Suerte-infinita/"
+    }
+]

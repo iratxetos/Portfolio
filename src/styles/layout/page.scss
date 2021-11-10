@@ -1,0 +1,54 @@
+.page{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color:#cdb4db;
+   
+
+&__wrapper {
+    background:white;
+    padding: 25px;
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0 20px;
+    position: relative;
+    top:-15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+  @include tablet {
+   .page__wrapper {
+    padding: 0 48px 48px ;
+    top:-150px;
+
+    } 
+  }
+
+  @include desktop {
+   .page__wrapper {
+      max-width: 870px;
+      // padding: 0 auto;
+    } 
+  }
+
+  &__line{
+    border-top: #ffafcc solid 0.5px;
+    height: 30px;
+    margin-top: 10px;
+
+    &--contact{
+    border-top: rgb(58, 54, 54) solid 0.5px;
+    height: 30px;
+    margin-top: 20px;
+    
+    @include tablet {
+      margin-top: 40px;
+     }
+
+     @include desktop {
+      margin-top: 90px;
+     }
+    }
+  }
+}

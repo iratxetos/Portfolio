@@ -1,0 +1,24 @@
+.page{
+    &__socialList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: $main-margin;
+   
+    &--icon{
+    list-style: none;
+    font-size: 1rem;
+    padding: 2px 5px 2px 0;
+    margin: $margin-items;
+    }
+
+    a{
+        text-decoration: none;
+        color: #1f1f1f;
+        cursor: pointer;
+
+        &:hover{
+          color:#cdb4db;
+        }
+      }
+  } 
+}

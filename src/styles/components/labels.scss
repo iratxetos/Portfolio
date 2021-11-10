@@ -1,0 +1,36 @@
+.page{
+    &__labelList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: $margin-section;
+
+   
+    &--label{
+    list-style: none;
+    font-size: $label-font-size;
+    font-weight: $label-font-weight;
+    padding: 3px;
+    margin: 0 5px 5px 0;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+  
+} 
+}
+
+
+.good{
+    background-color: #bee1e6 ;
+}
+
+.medium{
+    background-color: #ffd7ba ;
+}
+
+.basic{
+    background-color: #fad2e1;
+}
+
+
+

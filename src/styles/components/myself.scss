@@ -1,0 +1,20 @@
+.page {
+&__myPhoto{
+    border-radius:50%;
+    width: 30%;
+    margin: $main-margin;
+}
+
+&__title{
+    font-weight: $main-title-font-weight;
+    font-size: $main-title-font-size;
+    margin: $main-margin;
+}
+
+&__subtitle{
+    font-weight: $subtitle-font-weight;
+    font-size: $subtitle-font-size;
+    margin: $subtitle-margin;
+}
+
+}

@@ -1,0 +1,18 @@
+.page{
+    &__welcome{
+        font-size: $title-font-size;
+        font-weight: $title-font-weight ;
+        margin: $main-margin;
+
+        &--text{
+        font-size: $text-font-size;
+        font-weight: $subtitle-font-weight;
+        margin: $subtitle-margin ;
+       }
+    }
+}
+
+.styles_typicalWrapper__1_Uvh{
+    font-size: $text-font-size;
+    font-weight: 400;
+}
