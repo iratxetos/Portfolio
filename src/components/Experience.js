@@ -9,7 +9,7 @@ function Experience(props) {
     return (
         <>
             <h2 className="page__work" data-aos="zoom-in" data-aos-delay="1000">Work</h2>
-            <article className="page__work--article" data-aos="zoom-out-right" data-aos-delay="1100">
+            <article className="page__work--article" data-aos="zoom-out-right" data-aos-delay="1000">
                 <img
                     className='page__work--img'
                     src={UO}
@@ -23,7 +23,7 @@ function Experience(props) {
                 </div>
             </article>
 
-            <article className="page__work--article" data-aos="zoom-out-left" data-aos-delay="1200">
+            <article className="page__work--article" data-aos="zoom-out-left" data-aos-delay="1050">
                 <img
                     className='page__work--img'
                     src={TBWA}
@@ -32,12 +32,12 @@ function Experience(props) {
                 />
                 <div className="page__work--description">
                     <h4 className="page__work--title">Account Executive</h4>
-                    <h6 className="page__work--subtitle">TBWA · May 2021 - Jan 2020, Argentina</h6>
+                    <h6 className="page__work--subtitle">TBWA · May 2018 - Jan 2020, Argentina</h6>
                     <p className="page__work--text">Link between client and agency. Clients: Nissan and La Caja. For the first one, both ATL and Digital campaigns/communication (web page included). For the second, mainly focused on Social Media channels.</p>
                 </div>
             </article>
 
-            <article className="page__work--article" data-aos="zoom-out-right" data-aos-delay="1300">
+            <article className="page__work--article" data-aos="zoom-out-right" data-aos-delay="1100">
                 <img
                     className='page__work--img'
                     src={servicelazio}
@@ -51,7 +51,7 @@ function Experience(props) {
                 </div>
             </article>
 
-            <article className="page__work--article" data-aos="zoom-out-left" data-aos-delay="1400">
+            <article className="page__work--article" data-aos="zoom-out-left" data-aos-delay="1150">
                 <img
                     className='page__work--img'
                     src={rome}
@@ -65,7 +65,7 @@ function Experience(props) {
                 </div>
             </article>
 
-            <article className="page__work--article" data-aos="zoom-out-right" data-aos-delay="1500">
+            <article className="page__work--article" data-aos="zoom-out-right" data-aos-delay="1200">
                 <img
                     className='page__work--img'
                     src={internship}
